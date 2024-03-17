@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+# DorkifyTech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dork Machine is a robust web application developed using ReactJS, designed to utilize advanced Google search techniques, commonly known as Google dorking, for gathering targeted information about specified subjects. It offers users an intuitive interface to perform focused searches and identify potential vulnerabilities or exposed data. This project was conceived and developed as part of an internship with the Gurugram Police Cyber Cell, Haryana Police, aimed at bolstering cybersecurity efforts and facilitating digital investigation procedures.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Google Dorking: Utilize advanced Google search operators to narrow down search results and find specific information related to the target.
+2. Target Specification: Enter the target domain or specific keywords to focus the search on particular websites or areas of interest.
+3. Customizable Search Queries: Modify and create custom search queries using various operators and filters to achieve desired results.
+4. Search Result Analysis: View detailed search results, including website URLs, page titles, and relevant snippets, to assess potential vulnerabilities or exposed information.
+5. Saved Searches: Save and manage your previous search queries for future reference and analysis.
+6. User-Friendly Interface: Enjoy a clean and intuitive UI design that allows for effortless navigation and seamless search experience.
