@@ -10,3 +10,6 @@ Dork Machine is a robust web application developed using ReactJS, designed to ut
 4. Search Result Analysis: View detailed search results, including website URLs, page titles, and relevant snippets, to assess potential vulnerabilities or exposed information.
 5. Saved Searches: Save and manage your previous search queries for future reference and analysis.
 6. User-Friendly Interface: Enjoy a clean and intuitive UI design that allows for effortless navigation and seamless search experience.
+
+#Deployment
+Check Out: https://dorkifytech.vercel.app/
