@@ -1,11 +1,9 @@
 import React from 'react';
 import {AiOutlineArrowDown} from 'react-icons/ai';
 import google from '../../assets/google_icon.png';
-import './header.css';
+import './header.css'
 
-
-
-const header = () => {
+const Header = () =>  {
   return (
     <div className='app__header section__padding' id='home'>
       <div className='app__header-content'>
@@ -13,14 +11,14 @@ const header = () => {
           The Google Search Engine is an amazing machine ! </h1>
         <p>The Google Engine is a great way to Osint stuff about a particular domain and you can try all of it here.</p>
         <div className='app__header-content-down'>
-         <a href="#brand"> <button><AiOutlineArrowDown /></button> </a> 
+          <a href="#brand"> <button><AiOutlineArrowDown /></button> </a>
         </div>
       </div>
-        <div className='app__header-image'>
-          <img src={google} alt="Google Image" />
-        </div>
+      <div className='app__header-image'>
+        <img src={google} alt="Google Image" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default header
+export default Header;

@@ -8,7 +8,7 @@ import {
 import { IconContext } from "react-icons";  
 
 import logo from "../../assets/Badges.png";
-const Footer = () => {
+const footer = () => {
   const style = { color: "white", fontSize: "1.5em",  }
   
   return (
@@ -30,10 +30,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="app__footer-copyright">
-        <p> @2024 Dorkify Tech. All rights reserved. </p>
+        <p> @2024 DorkMachine. All rights reserved. </p>
       </div>
     </div>
   );
 };
 
-export default Footer;
+export default footer;
