@@ -1,0 +1,98 @@
+.app__brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-inline: 0.5rem;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    height: 90px;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,0.9557072829131653) 0%, rgba(207,219,9,0.9557072829131653) 30%, rgba(0,255,59,0.9557072829131653) 60%, rgba(0,168,255,0.9445028011204482) 100%);    
+}
+.app__brand h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    padding: 0 1rem;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 0px;
+
+    letter-spacing: -0.04em;
+}
+.app__brand p{
+    font-family: var(--font-family);
+    padding: 8px 8px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 4rem;
+    font-size: 23px;
+    margin-top: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+}
+
+   .app__brand p:hover{
+        
+        scale: 1.05;
+        font-weight: 600;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        
+    }
+
+    @media screen and (max-width: 700px){
+        .app__brand{
+            display: block;
+            min-height: 420px;
+        }
+
+        .app__brand h1{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .app__brand p{
+            margin-top: 2rem;
+            padding-left: 5rem;
+        }
+    }
+    
+    @media screen and (max-width: 500px){
+        .app__brand{
+            display: block;
+            min-height: 420px;
+        }
+
+        .app__brand h1{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .app__brand p{
+            margin-top: 2rem;
+            padding-left: 3rem;
+        }
+    }
+    @media screen and (max-width: 450px){
+        .app__brand{
+            display: inline-block;
+            min-height: 520px;
+            margin: 0rem 0rem;
+            }
+
+        .app__brand h1{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .app__brand p{
+            margin-top: 2rem;
+            padding-left: 3rem;
+        }
+    }
+
+  
